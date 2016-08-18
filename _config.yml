@@ -1,0 +1,18 @@
+# Site settings
+title: blog@clarkwinkelmann
+email: clark.winkelmann@gmail.com
+description: "I'm a Webdesign, Laravel, Linux and Open-source enthusiast"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://blog.clarkwinkelmann.com" # the base hostname & protocol for your site
+twitter_username: clarkwinkelmann
+github_username:  clarkwinkelmann
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:title
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
