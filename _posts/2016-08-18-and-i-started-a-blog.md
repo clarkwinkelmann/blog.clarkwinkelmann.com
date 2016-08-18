@@ -9,9 +9,13 @@ I will keep this short. I will use this blog to share my experiences with open-s
 as share insights about projects I'm working on.
 
 Why ? I've been contributing to the [open-source community](https://github.com/clarkwinkelmann) for some time already,
-but often I feel like I'm not sharing all the knowledge I gained or added.
+but generally don't share all the knowledge I gained while working on a project.
+I merely share the code (and *sometimes* the doc) without going further.
 
-Let's keep this simple, with a list. Things I often face:
+This was a way to get things done quicker so I could work on something else.
+Now that I do more serious stuff and that I'm more confident in doing things *sort of* right, it's time to share more !
+
+Let's keep this simple, with a list. Things-I-often-face-and-others-will-too:
 
 - Trouble setting up dev environment
 - Getting the minimum required knowledge of a software to fix things like URLs or typos
