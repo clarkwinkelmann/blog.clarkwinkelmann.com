@@ -3,7 +3,7 @@ title: And I started a blog
 date:  2016-08-18 10:00:00
 ---
 
-I there ! My name is Clark Winkelmann and I'm a webdesigner freelancer.
+Hi there ! My name is Clark Winkelmann and I'm a webdesigner freelancer.
 
 I will keep this short. I will use this blog to share my experiences with open-source software as well
 as share insights about projects I'm working on.
