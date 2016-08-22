@@ -140,6 +140,16 @@ This is my first tutorial, please give me feedback [on Twitter](https://twitter.
 There are in fact a few HTML templates in the [views folder of Flarum](https://github.com/flarum/core/tree/master/views).
 They are used to display a simple alternative interface to users with JavaScript disabled.
 
+[Davis Custom Header extension](https://discuss.flarum.org/d/2739-davis-custom-header) does
+[manipulate the DOM directly](https://github.com/dav-is/flarum-ext-customheader/blob/master/js/forum/src/main.js) with a jQuery selector.
+That's a special case. Why ?
+If you look at [`views/forum.blade.php`](https://github.com/flarum/core/blob/master/views/forum.blade.php) you can see several things:
+`#content` will hold the main application Component. `#header-primary` and `#header-secondary` will hold the navigation Components.
+The tags that are accessed directly (`#header` and `head`) are outside the JS application.
+They are not Components and therefore must be accessed in the "old" way.
+You can't do that with Components, because the DOM is managed by Mithril.
+Maybe in the future the `#header` tag will be merged into the main application, which would allow to change all its content via Components.
+
 I only cover the problems that newcomers may face when editing Flarum *interface*.
 Adding *functionality* is another topic that includes things like *Providers* and *Events* (as opposed with WP *Hooks*).
 I'll write another article if there is interest in the matter !
