@@ -4,6 +4,7 @@ date:  2016-08-22 16:20:00
 ---
 
 An interesting discussion was taking place on the [Flarum Gitter](https://gitter.im/flarum/flarum) today.
+I figured I should better write an article instead of writing thousands of words in a small text input.
 
 I'm new to [Flarum](http://flarum.org/), I didn't even have time to write my first extension.
 But I read all the docs, looked at the source code of most core extensions,
