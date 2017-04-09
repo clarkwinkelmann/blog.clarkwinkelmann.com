@@ -20,12 +20,12 @@ In code snippets, `[...]` indicates that nothing changed from the last snippet o
 Create a new `workbench` folder under the Flarum install and register it as a repository in Flarum's `composer.json`:
 
 ```json
-    "repositories": [
-        {
+    "repositories": {
+        "workbench": {
             "type": "path",
             "url": "workbench/*/"
         }
-    ],
+    },
 ```
 
 ## Extension setup
@@ -69,7 +69,7 @@ Javscript code will be placed in `js/forum` in the extension folder. In this fol
     "private": true,
     "devDependencies": {
         "gulp": "^3.8.11",
-        "flarum-gulp": "^0.1.0"
+        "flarum-gulp": "^0.2.0"
     },
 }
 ```
@@ -140,7 +140,7 @@ We will use the [mervick/emojionearea](https://github.com/mervick/emojionearea) 
     "private": true,
     "devDependencies": {
         "gulp": "^3.8.11",
-        "flarum-gulp": "^0.1.0",
+        "flarum-gulp": "^0.2.0",
         "emojionearea": "^3.1.5"
     }
 }
