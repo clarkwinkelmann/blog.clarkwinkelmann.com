@@ -102,7 +102,7 @@ It usually took me a few months before starting the work on the scoreboard so I 
 
 I could probably have done it even faster, but I took the opportunity to make a few changes.
 
-Since 2015 I went from React to Mithril as my main framework, and it already caused a few integration issues during the last Coupe to integrate the React scoreboard into the Mithril app. The React code of 2016 is also a very messy because everything was fit into a single file, meaning it required some major rewrite anyway.
+Since 2015 I went from React to Mithril as my main framework, and it already caused a few integration issues during the last Coupe to integrate the React scoreboard into the Mithril app. The React code of 2016 was also a big mess because everything was fit into a single file, meaning it required some major rewrite anyway.
 
 I decided to re-create the exact same logic from React in Mithril. This went without issues, given the large similarities between the frameworks. The CSS style stayed mostly the same, with updated colors to reflect this year's theme.
 
