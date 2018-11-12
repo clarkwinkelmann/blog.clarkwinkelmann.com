@@ -3,6 +3,8 @@ title: Flarum templating
 date:  2016-08-22 16:20:00
 ---
 
+> Note by Clark from the future (November 2018): this was written a long time ago and while still accurate, the [new Flarum docs](https://github.com/flarum/docs) now cover this a lot better than I did here :)
+
 An interesting discussion was taking place on the [Flarum Gitter](https://gitter.im/flarum/flarum) today.
 I figured I should better write an article instead of writing thousands of words in a small text input.
 
